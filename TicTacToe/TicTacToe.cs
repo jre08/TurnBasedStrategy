@@ -5,7 +5,7 @@ using TicTacToe.Requests;
 
 namespace TicTacToe
 {
-	public class TicTacToe
+	public class TicTacToe : IGameEngine
 	{
 		public GameFactory GameFactory { get; set; }
 		public List<Game> WaitForConnetctionGames { get; set; }
@@ -18,7 +18,7 @@ namespace TicTacToe
 			this.GameFactory = new GameFactory();
 		}
 		
-		public Game StartGame()
+		public IGame StartGame()
 		{
 			if(WaitForConnetctionGames.Count != 0)
 			{
@@ -31,8 +31,8 @@ namespace TicTacToe
 
 			return game;
 		}
-
-		public void MakeMove(Game game, Player player, Move move)
+		
+		public void MakeMove(IGame game, Player player, Move move)
 		{
 			game.Request(new MakeMoveRequest());
 		}

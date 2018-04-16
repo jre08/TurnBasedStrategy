@@ -4,7 +4,7 @@ using System.Text;
 
 namespace TicTacToe.Requests
 {
-	public abstract class Request : IRequest
+	public interface IRequest
 	{
 	}
 }

@@ -3,9 +3,9 @@ using TicTacToe.States;
 
 namespace TicTacToe
 {
-	public class Game
+	public class Game : IGame
 	{
-		public GameState GameState { get; set; }
+		public IGameState GameState { get; set; }
 		
 		public Game()
 		{

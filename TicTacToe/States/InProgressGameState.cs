@@ -5,9 +5,9 @@ using TicTacToe.Requests;
 
 namespace TicTacToe.States
 {
-	public class InProgressGameState : GameState
+	public class InProgressGameState : IGameState
 	{
-		public override void Handle(Game game, Request request)
+		public void Handle(IGame game, IRequest request)
 		{
 			throw new NotImplementedException();
 		}

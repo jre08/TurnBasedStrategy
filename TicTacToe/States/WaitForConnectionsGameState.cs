@@ -6,16 +6,16 @@ using TicTacToe.Requests;
 
 namespace TicTacToe.States
 {
-	public class WaitForConnectionsGameState : GameState
+	public class WaitForConnectionsGameState : IGameState
 	{
-		public override void Handle(Game game, Request request)
+		public void Handle(IGame game, IRequest request)
 		{
-			if(request is JoinGameRequest)
+			if (request is JoinGameRequest)
 			{
 				//todo: add player to game
 
 				// change state
-				game.GameState = new InProgressGameState();
+				//game.GameState = new InProgressGameState();
 			}
 			else if (request is MakeMoveRequest)
 			{
