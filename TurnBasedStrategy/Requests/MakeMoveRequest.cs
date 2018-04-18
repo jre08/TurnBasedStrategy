@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace TicTacToe.Requests
+namespace TurnBasedStrategy.Requests
 {
-	public class JoinGameRequest : Request
+	public class MakeMoveRequest : Request
 	{
 	}
 }

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace TicTacToe.Exceptions
+namespace TurnBasedStrategy
 {
-	public class WrongMoveException : GameException
+	class ITurnBasedGame
 	{
 	}
 }

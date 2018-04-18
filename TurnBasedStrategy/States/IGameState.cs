@@ -1,6 +1,6 @@
-﻿using TicTacToe.Requests;
+﻿using TurnBasedStrategy.Requests;
 
-namespace TicTacToe.States
+namespace TurnBasedStrategy.States
 {
 	public interface IGameState
 	{

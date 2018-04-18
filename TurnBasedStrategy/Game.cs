@@ -1,7 +1,7 @@
-﻿using TicTacToe.Requests;
-using TicTacToe.States;
+﻿using TurnBasedStrategy.Requests;
+using TurnBasedStrategy.States;
 
-namespace TicTacToe
+namespace TurnBasedStrategy
 {
 	public class Game : IGame
 	{

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using TicTacToe.Requests;
+using TurnBasedStrategy.Requests;
 
-namespace TicTacToe
+namespace TurnBasedStrategy
 {
 	public class TicTacToe : IGameEngine
 	{

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace TicTacToe.Exceptions
+namespace TurnBasedStrategy.Requests
 {
-	public class TurnAccessException : GameException
+	public abstract class Request : IRequest
 	{
 	}
 }
