@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicTacToe", "TicTacToe\TicTacToe.csproj", "{D516322A-A437-4C08-A80F-936B5D8595B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TurnBasedStrategy", "TicTacToe\TurnBasedStrategy.csproj", "{D516322A-A437-4C08-A80F-936B5D8595B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTest", "XUnitTest\XUnitTest.csproj", "{CEAE4B4F-BB18-4EAB-A824-0A47CFCB7CD7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XUnitTest", "XUnitTest\XUnitTest.csproj", "{CEAE4B4F-BB18-4EAB-A824-0A47CFCB7CD7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
