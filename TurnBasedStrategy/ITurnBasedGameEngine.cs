@@ -5,8 +5,8 @@ using TurnBasedStrategy.Requests;
 
 namespace TurnBasedStrategy
 {
-	public interface ITurnBasedGame
+	public interface ITurnBasedGameEngine
 	{
-		void Handle(IRequest request);
+		ITurnBasedGame Handle(IRequest request);
 	}
 }

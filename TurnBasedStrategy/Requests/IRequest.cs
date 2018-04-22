@@ -6,5 +6,6 @@ namespace TurnBasedStrategy.Requests
 {
 	public interface IRequest
 	{
+		void Exec(ITurnBasedGameEngine engine);
 	}
 }

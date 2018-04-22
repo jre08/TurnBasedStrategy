@@ -4,7 +4,19 @@ using System.Text;
 
 namespace TurnBasedStrategy.Requests
 {
-	public class JoinGameRequest : Request
+	public class JoinGameRequest : IRequest
 	{
+		Client _client;
+
+		public JoinGameRequest(Client client)
+		{
+			_client = client;
+		}
+
+		public void Exec(ITurnBasedGameEngine engine)
+		{
+			//engine.WaitingQueue.Enqueue(_client);
+			//if()
+		}
 	}
 }
