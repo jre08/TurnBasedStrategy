@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace TicTacToe.Requests
+namespace TurnBasedStrategy.Requests
 {
 	public interface IRequest
 	{
+		void Exec(ITurnBasedGameEngine engine);
 	}
 }

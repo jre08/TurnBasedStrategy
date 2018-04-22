@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace TicTacToe.Exceptions
+namespace TurnBasedStrategy.Exceptions
 {
 	public class GameAccessException : GameException
 	{

@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using TicTacToe.Exceptions;
-using TicTacToe.Requests;
+using TurnBasedStrategy.Exceptions;
+using TurnBasedStrategy.Requests;
 
-namespace TicTacToe.States
+namespace TurnBasedStrategy.States
 {
 	public class WaitForConnectionsGameState : IGameState
 	{

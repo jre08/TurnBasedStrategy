@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using TicTacToe.Requests;
+using TurnBasedStrategy.Requests;
 
-namespace TicTacToe.States
+namespace TurnBasedStrategy.States
 {
-	public class FinishedGameState : IGameState
+	public class InProgressGameState : IGameState
 	{
 		public void Handle(IGame game, IRequest request)
 		{
