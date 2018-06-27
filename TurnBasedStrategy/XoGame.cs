@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using System.Text;
 using TurnBasedStrategy.Requests;
 
-namespace TurnBasedStrategy.States
+namespace TurnBasedStrategy
 {
-	public class InProgressGameState : IGameState
+	public class XoGame : ITurnBasedGame
 	{
-		public void Handle(ITurnBasedGame game, IRequest request)
+
+
+		public void Handle(IRequest request)
 		{
 			throw new NotImplementedException();
 		}
