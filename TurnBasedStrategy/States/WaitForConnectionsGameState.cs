@@ -8,7 +8,7 @@ namespace TurnBasedStrategy.States
 {
 	public class WaitForConnectionsGameState : IGameState
 	{
-		public void Handle(IGame game, IRequest request)
+		public void Handle(ITurnBasedGame game, IRequest request)
 		{
 			if (request is JoinGameRequest)
 			{
@@ -21,6 +21,16 @@ namespace TurnBasedStrategy.States
 			{
 				throw new GameNotReadyException();
 			}
+		}
+
+		public void Join(Client client)
+		{
+			throw new NotImplementedException();
+		}
+
+		public void MakeMove(Client client)
+		{
+			throw new NotImplementedException();
 		}
 	}
 }

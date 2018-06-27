@@ -7,7 +7,7 @@ namespace TurnBasedStrategy.States
 {
 	public class FinishedGameState : IGameState
 	{
-		public void Handle(IGame game, IRequest request)
+		public void Handle(ITurnBasedGame game, IRequest request)
 		{
 			throw new NotImplementedException();
 		}
